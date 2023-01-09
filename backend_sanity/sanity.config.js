@@ -2,17 +2,20 @@ import {defineConfig} from 'sanity'
 import {deskTool} from 'sanity/desk'
 import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemas'
+import testimonial from './schemas/testimonial'
 
 export default defineConfig({
   name: 'default',
-  title: 'Sanity Project',
+  title: 'Portfolio',
 
-  projectId: 'i83e4ijq',
-  dataset: 'production',
+  projectId: 'lggxlpb3',
+  dataset: 'portfolio',
 
   plugins: [deskTool(), visionTool()],
 
   schema: {
-    types: schemaTypes,
+    types: schemaTypes.concat([
+      testimonial
+    ])
   },
 })
