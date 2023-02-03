@@ -1,11 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 import './Testimonials.scss';
 
-const Testimonials = () => {
-  return (
-    <div>Testimonials</div>
-  )
-}
+const Testimonials = () => (
+  <div>Testimonials</div>
+);
 
-export default Testimonials
+export default Testimonials;
