@@ -16,7 +16,7 @@ const scaleVariants = {
 }
 const Header = () => {
   return (
-    <div className="app__header app__flex">
+    <div id="home" className="app__header app__flex">
       <motion.div
         whileInView={{ x: [-100, 0], opacity: [0, 1] }}
         transition={{ duration: 0.5 }}
@@ -30,7 +30,7 @@ const Header = () => {
               <h1 className="header-text">Kelvin</h1>
             </div>
           </div>
-          <div className="badge-cmp app_flex">
+          <div className="tag-cmp app_flex">
             <p className="p-text">Web Developer</p>
             <p className="p-text">UX/UI Designer</p>
           </div>
