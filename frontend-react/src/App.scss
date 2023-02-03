@@ -15,7 +15,6 @@
 .app__container {
   width: 100%;
   min-height: 100vh;
-
   display: flex;
   flex-direction: row;
 }
@@ -40,7 +39,6 @@
 .copyright {
   width: 100%;
   padding: 2rem 0 0;
-
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -103,7 +101,6 @@
   justify-content: flex-end;
   align-items: center;
   flex-direction: column;
-
   padding: 1rem;
 
   div {
@@ -113,11 +110,9 @@
     background-color: var(--white-color);
     margin: 0.25rem 0;
     border: 1px solid var(--lightGray-color);
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     transition: all 0.3s ease-in-out;
 
     svg {
@@ -138,7 +133,6 @@
     @media screen and (min-width: 2000px) {
       width: 70px;
       height: 70px;
-
       margin: 0.5rem 0;
 
       svg {
@@ -154,7 +148,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
   padding: 1rem;
 
   .app__navigation-dot {
@@ -163,7 +156,6 @@
     border-radius: 50%;
     background-color: #cbcbcb;
     margin: 0.5rem;
-
     transition: background-color 0.2s ease-in-out;
 
     &:hover {
