@@ -19,7 +19,7 @@ What things you need to install the software and how to install them:
 
   $ cd kelvin-benjamin
   
-  npm install then npm ran to view the portfolio website.
+  npm install then npm start to view the portfolio website.
   
   ### Built With
   - JAVASCCRIPT
