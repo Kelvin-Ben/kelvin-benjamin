@@ -2,7 +2,7 @@ import {defineConfig} from 'sanity'
 import {deskTool} from 'sanity/desk'
 import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemas'
-import testimonial from './schemas/testimonial'
+import testimonials from './schemas/testimonial'
 
 export default defineConfig({
   name: 'default',
@@ -15,7 +15,7 @@ export default defineConfig({
 
   schema: {
     types: schemaTypes.concat([
-      testimonial
+      testimonials
     ])
   },
 })
