@@ -14,7 +14,6 @@ import contact from './schemas/contact'
 export default defineConfig({
   name: 'default',
   title: 'Portfolio',
-
   projectId: 'kdseu2od',
   dataset: 'production',
 
