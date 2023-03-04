@@ -1,4 +1,4 @@
-/* eslint-disable import/no-anonymous-default-export */
+// this is import of images
 import email from '../assets/email.png';
 import mobile from '../assets/mobile.png';
 import api from '../assets/api.png';
