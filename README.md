@@ -31,8 +31,8 @@ What things you need to install the software and how to install them:
   
   👤 **Kelvin Benjamin**
 
-- GitHub: [@Kelvin-Ben](https://github.com/Kelvin-Ben)
-- Twitter: [@kevoyout144](https://twitter.com/kevoyout144)
+- GitHub: [Kelvin-Ben](https://github.com/Kelvin-Ben)
+- Twitter: [kevoyout144](https://twitter.com/kevoyout144)
 - LinkedIn: [Kelvin-Ben](https://www.linkedin.com/in/kelvin-ben-323043173)
 
 ## ⭐️ Show your support 

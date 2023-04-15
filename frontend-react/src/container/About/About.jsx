@@ -16,7 +16,7 @@ const About = () => {
   }, []);
   return (
   <>
-    <h2 className="head-text">I know that <span>Good Development</span><br /> means <span>Good Business</span>
+    <h2 className="head-text">Collaborating with <span> clients</span> to bring<br /> <span>their vision</span> to life.
     </h2>
     <div className="app__profiles">
       {abouts.map((about, index) => (
